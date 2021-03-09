@@ -1,0 +1,222 @@
+@media (min-width: 1020px) {
+  .lets-go-wrapper {
+    padding: 200px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .lets-go-wrapper .lets-go-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 30px;
+    text-align: center;
+    width: 30vw;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title {
+    text-align: center;
+    color: #fff;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title h1 {
+    margin-bottom: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  .lets-go-wrapper .btn-list {
+    width: 100%;
+    max-width: 660px;
+  }
+  .lets-go-wrapper .btn-list .btn-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style: none;
+    height: 440px;
+  }
+  .lets-go-wrapper .btn-list .btn-items li {
+    margin-bottom: 10px;
+  }
+  .lets-go-wrapper .btn-list .btn-items li:nth-child(-n+4) {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1020px) and (min-width: 800px) {
+  .lets-go-wrapper {
+    padding: 200px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title {
+    color: #fff;
+    margin-right: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title h1 {
+    margin-bottom: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items .item {
+    margin: 0 5px 10px;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items li:first-child, .lets-go-wrapper .lets-go-container .btn-items li:nth-child(2), .lets-go-wrapper .lets-go-container .btn-items li:nth-child(6), .lets-go-wrapper .lets-go-container .btn-items li:nth-child(7) {
+    width: 50%;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items li:first-child, .lets-go-wrapper .lets-go-container .btn-items li:nth-child(6) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items li:nth-child(2), .lets-go-wrapper .lets-go-container .btn-items li:nth-child(7) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .lets-go-wrapper .lets-go-container .btn-items li:nth-child(3), .lets-go-wrapper .lets-go-container .btn-items li:nth-child(4), .lets-go-wrapper .lets-go-container .btn-items li:nth-child(5) {
+    width: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .lets-go-wrapper {
+    padding: 200px 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title {
+    color: #fff;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title h1 {
+    margin-bottom: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .lets-go-header .lets-go-header-title p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .lets-go-wrapper .lets-go-container .btn-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .lets-go-wrapper .lets-go-container .btn-list .btn-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    list-style: none;
+    text-align: center;
+  }
+  .lets-go-wrapper .lets-go-container .btn-list .btn-items .item {
+    margin-bottom: 10px;
+  }
+}
+/*# sourceMappingURL=Play.css.map */

@@ -1,0 +1,46 @@
+.start-wrapper .start-container {
+  padding: 200px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.start-wrapper .start-container .start-header {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.start-wrapper .start-container .start-header h1 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.start-wrapper .start-container .start-header p {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.start-wrapper .start-container .download {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.start-wrapper .start-container .download a {
+  margin: 0 10px;
+}
+
+.start-wrapper .start-container .download .google, .start-wrapper .start-container .download .app-store {
+  width: 220px;
+}
+
+.start-wrapper .start-container .how-to-download {
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .start-wrapper .start-container .download .google, .start-wrapper .start-container .download .app-store {
+    width: 40%;
+  }
+}
+/*# sourceMappingURL=Start.css.map */

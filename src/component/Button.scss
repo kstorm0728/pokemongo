@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    padding: 20px 0;
+    border-radius: 40px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, .3);
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    border: 3px solid #fff;
+    transition: all .2s;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, .8);
+        transition: all .2s;
+    }
+}
+
+
+
+.btn-secondary {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 5px solid #40ba90;
+    border-radius: 30px;
+    background: linear-gradient(90deg,#83db85 0,#58d6b4);
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+        background: rgb(26, 105, 116);
+        border-color: rgb(3, 90, 112);
+        transition: all .3s ease-in-out;
+    }
+}
+
+.btn-item {
+    background-color: #fff;
+    color: #22597d;
+    height: 100px;
+    padding: 0 50px;
+    border: 5px solid;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    
+
+    .item-img {
+        position: absolute;
+        top: 50%;
+        right: -5%;
+        transform: translateY(-50%);
+        width: 60px;
+    }
+    
+}
+
+.item1 {
+    border-color: #ffc980;
+    transition: all .3s;
+    &:hover {
+        background-color: #ffc980;
+    }
+}
+.item2 {
+    border-color: #fff080;
+    transition: all .3s;
+    &:hover {
+        background-color: #fff080;
+    }
+}
+.item3 {
+    border-color: #c7fa8b;
+    transition: all .3s;
+    &:hover {
+        background-color: #c7fa8b;
+    }
+}
+.item4 {
+    border-color: #95f0bf;
+    transition: all .3s;
+    &:hover {
+        background-color: #95f0bf;
+    }
+}
+.item5 {
+    border-color: #a7efef;
+    transition: all .3s;
+    &:hover {
+        background-color: #a7efef;
+    }
+}
+.item6 {
+    border-color: #a7d1ef;
+    transition: all .3s;
+    &:hover {
+        background-color: #a7d1ef;
+    }
+}
+.item7 {
+    border-color: #a7b8ef;
+    transition: all .3s;
+    &:hover {
+        background-color: #a7b8ef;
+    }
+}
+
+
+
+@media(max-width: 720px) {
+    .btn-primary {
+        width: 70%;
+        padding: 15px 0;
+    }
+
+    
+}
+
+$change: 800px;
+
+@media(min-width: $change) {
+    .btn-item {
+        width: 30vw;
+        max-width: 320px;
+    }
+}
+
+@media(max-width: $change) {
+    .btn-item {
+        width: 320px;
+    }
+}
+

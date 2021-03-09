@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 100px 0 0 0;
+    width: 100%;
+}
+
+.hero-container .logo {
+    margin: 0 auto;
+    width: 250px;
+}
+
+.lets-start {
+    color: #fff;
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.how-to-download, .how-to-play {
+    margin-bottom: 20px;
+}
+
+.download-here {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+.hero-container .download {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.hero-container .download img {
+    width: 150px;
+    margin: 0 5px;
+}
+
+.hero-container .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1000px;
+    border-radius: 40px;
+    background-color: #fff;  
+    list-style: none;
+    margin: 50px auto 0;
+}
+
+.hero-container .navbar .nav-item {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-container .navbar a {
+    color: #1b8190;
+    line-height: 80px;
+}
+
+@media(max-width: 720px) {
+    .hero-container .navbar {
+        display: none;
+    }
+
+    .hero-container .logo {
+        margin: 0 auto;
+        width: 60%;
+    }
+
+    .hero-container .download .google {
+        width: 85%;
+    }
+
+    .hero-container .download .app-store {
+        width: 93%;
+    }
+}

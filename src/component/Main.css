@@ -1,0 +1,14 @@
+.bg-full1 {
+    background: url("../images/bg1.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+
+.bg-full2 {
+    background: url("../images/bg2.jpg") center no-repeat fixed;
+    background-size: cover;
+}
+
+.bg-full3 {
+    background: url("../images/bg3.jpg") center no-repeat fixed;
+    background-size: cover;
+}

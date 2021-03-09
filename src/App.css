@@ -1,0 +1,70 @@
+h1, h2, h3, h4, h5, h6, p, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-container .header-icon {
+  position: absolute;
+  top: 18px;
+  left: 30px;
+  font-size: 24px;
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .header-container .header-icon {
+    display: block;
+  }
+}
+
+.header-container .header-items .header-items-inr {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  list-style: none;
+  font-weight: bold;
+}
+
+.header-container .header-items .header-items-inr li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0;
+  line-height: 1.2;
+  height: 100%;
+}
+
+@media (max-width: 1024px) {
+  .header-container .header-items .header-items-inr li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 720px) {
+  .header-container .header-items .header-items-inr li {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-container .header-items .header-items-inr li {
+    display: none;
+  }
+}
+
+.header-container .header-items .header-items-inr a {
+  text-decoration: none;
+  color: #1b7e94;
+  display: block;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  padding: 10px 0;
+}
+
+.header-container .header-items .header-items-inr img {
+  width: 60%;
+}
+/*# sourceMappingURL=App.css.map */

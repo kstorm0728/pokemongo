@@ -1,0 +1,34 @@
+.bottom-nav {
+    display: none;
+}
+
+@media(max-width:720px) {
+
+    .bottom-nav {
+        display: block;
+    
+        .bottom-nav-list {
+            background-color: #1b8190;
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+    
+            li {
+                height: 71px;
+                color: #fff;
+                font-size: 18px;
+                font-weight: bold;
+                border-bottom: 1px solid #fff;
+                padding: 0 20px;
+                display: flex;
+                align-items: center;
+
+                &::after {
+                    content: '>';
+                    margin: 0 0 0 auto;
+                }
+            }
+        }
+    }
+
+}
